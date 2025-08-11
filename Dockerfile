@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM cgr.dev/chainguard/python
+FROM cgr.dev/chainguard/python@sha256:17cd737bfcfd3fd8b7a32036dcbbf80ae9e85c503f0b46d755e31208a46a392f
 
 # Set the working directory in the container
 WORKDIR /app
